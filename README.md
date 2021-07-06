@@ -1,2 +1,2 @@
 # FrankyNews
-a practice project to consolidate kwons about django.
+a practice project to consolidate knoledges about django.
