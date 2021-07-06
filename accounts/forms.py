@@ -17,6 +17,9 @@ class CustomUserCreationForm(UserCreationForm):
 
 
 class CustomUserChangeForm(UserChangeForm):
+    """
+    Necessary class for always that the users wants change their fields
+    """
 
     class Meta:
         model = CustomUser
