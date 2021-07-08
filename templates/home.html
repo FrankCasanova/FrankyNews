@@ -4,11 +4,11 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-  Hi {{ user.username }}! You are {{ user.age }} years old.
-  <p><a href="{% url 'logout' %}">Log Out</a></p>
+  {% comment %} Hi {{ user.username }}! You are {{ user.age }} years old. {% endcomment %}
+  {% comment %} <p><a href="{% url 'logout' %}">Log Out</a></p> {% endcomment %}
 {% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">Log In</a> |
-  <a href="{% url 'signup' %}">Sign Up</a>
+  {% comment %} <p>You are not logged in</p> {% endcomment %}
+  {% comment %} <a href="{% url 'login' %}">Log In</a> | {% endcomment %}
+  {% comment %} <a href="{% url 'signup' %}">Sign Up</a> {% endcomment %}
 {% endif %}
 {% endblock content %}
