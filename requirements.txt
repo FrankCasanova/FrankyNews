@@ -5,8 +5,11 @@ dj-email-url==1.0.2
 Django==3.2.5
 django-cache-url==3.2.3
 django-crispy-forms==1.12.0
+django-heroku==0.3.1
 environs==9.3.2
+gunicorn==20.1.0
 marshmallow==3.12.2
+psycopg2==2.9.1
 psycopg2-binary==2.9.1
 pycodestyle==2.7.0
 python-dotenv==0.18.0
