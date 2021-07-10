@@ -131,7 +131,7 @@ USE_TZ = True
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [str(BASE_DIR.joinpath('FrankyNews/static'))]
+STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
 STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))  # new
 
 # Default primary key field type
